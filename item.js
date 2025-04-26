@@ -8,11 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
             const item = data.find(item => item.id === itemId);
             if (item) {
                 // Update visible page content
-                document.getElementById("item-title").innerText = item.title;
+                document.getElementById("item-title").innerText = item.id;
                 document.getElementById("item-image").src = `images/${item.image}`;
-                document.getElementById("item-description").innerText = item.description;
-                document.getElementById("item-brand").innerText = item.brand;
-                document.getElementById("item-category").innerText = item.category;
+                document.getElementById("item-style").innerText = item.style;
+                document.getElementById("item-subject").innerText = item.subject;
+                document.getElementById("item-size").innerText = item.size;
+                document.getElementById("item-contentSize").innerText = item.contentSize;
+                document.getElementById("item-dateModified").innerText = item.size;
 
                 // Create JSON-LD metadata
                 const jsonLd = {
