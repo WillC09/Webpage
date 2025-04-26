@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById("item-subject").innerText = item.subject;
                 document.getElementById("item-size").innerText = item.size;
                 document.getElementById("item-contentSize").innerText = item.contentSize;
-                document.getElementById("item-dateModified").innerText = item.size;
+                document.getElementById("item-dateModified").innerText = item.dateModified;
 
                 // Create JSON-LD metadata
                 const jsonLd = {
