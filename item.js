@@ -18,13 +18,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Create JSON-LD metadata
                 const jsonLd = {
-                    "@context": "https://schema.org/",
-                    "@type": "Product",
-                    "name": item.title,
+                    "@context": "https://www.loc.gov/standards/vracore/VRA_Core4_Element_Description.pdf",
+                    "@type": "Image",
+                    "image id": item.id,
                     "image": `images/${item.image}`,
-                    "description": item.description,
-                    "brand": item.brand,
-                    "category": item.category
+                    "style": item.style,
+                    "subject": item.subject,
+
+                    "@context": "https://schema.org/ImageObject",
+                    "@type": "ImageObject",
+                    "size": item.size,
+                    "Content Size": item.contentSize,
+                    "Date Modified": item.dateModified,
                 };
 
                 // Insert JSON-LD into the <head> of the document
