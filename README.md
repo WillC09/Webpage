@@ -4,7 +4,7 @@ What the Data is...
 
 The following curated repository contains a series of high resolution images utilized for architectural
 elevations and rendered images commonly utilized within my main studio courses. The collected data represents
-a small portion of my overall digital repository for architectural rendering. Theis gallery of images are characterized as 
+a small portion of my overall digital repository for architectural rendering. This gallery of images are characterized as 
 being commonly used within "Site" Plans and/or diagrams. It will contain a series of JPG and PNG data points 
 with the following fields: 
 
