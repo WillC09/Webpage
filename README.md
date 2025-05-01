@@ -25,16 +25,16 @@ VRA 4.0 (Art Focus)
 The following describes the possible groupings of IDs to create a consistent schema format across all files. 
 The following structure and components are presented below:
 
-(Segment 1)_(Segment 2)_(Segment 3)
+(Segment 1) _(Segment 2) _(Segment 3) - (Segment 3.1)
 
 Ex:) V_TS_section-symbol
 
 Segment 1:
-- Determines whether the image is a vector image or is based off of realistic principles.
-- Utilized singular initial capital with (V = Vector) and (R = Realism)
+- Determines whether the image is a vector image or is based on realistic principles.
+- Utilized singular "initial" capital with (V = Vector) and (R = Realism)
 
 Segment 2:
-- Determines the subject category of the image based off of typical architectural practice and representation.
+- Determines the subject category of the image based on typical architectural practice and representation.
 - The following are possible subject categories with their respective acronym within instantiated schema.
   - Graphic Symbols (Segment = GS)
   - Plants in Elevation (Segment = PE)
@@ -42,5 +42,5 @@ Segment 2:
   - Technical Symbol (Segment = TS)
 
 Segment 3:
-- Cusomizabe section of schema that is personalized to each image.
-- Only contraint is the removal of odd characters and the replacement of spaces with highphens.
+- Customizable section of schema that is personalized to each image.
+- Only constraint is the removal of odd characters and the replacement of spaces with hyphens.
