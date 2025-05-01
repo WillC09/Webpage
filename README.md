@@ -1,6 +1,6 @@
-#Description of Following Collection
+Description of Following Collection
 
-#What the Data is...
+What the Data is...
 
 The following curated repository contains a series of high resolution images utilized for architectural
 elevations and rendered images commonly utilized within my main studio courses. The collected data represents
@@ -20,7 +20,7 @@ VCA 4.0 (Art Focus)
 - Style (Vector or Realism)
 - Subject (Controlled Series of Possible Objects)
 
-#Image ID Schema...
+Image ID Schema...
 
 The following describes the possible groupings of IDs to create a consistent schema format across all files. 
 The following structure and components are presented below:
