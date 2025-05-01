@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             data.forEach(item => { // Loop through each item in the JSON file
                 let div = document.createElement("div"); // Create a new div for each item
                 div.innerHTML = `
-                    <h2>${item.image}</h2>
+                    <img src="${item.image}" alt="Image of ${item.id}" style="width:100%; max-width:300px;">
                     <p>${item.id}</p>
                     <a href="item-template.html?id=${item.id}">View More</a>
                 `; // Insert item data and link
