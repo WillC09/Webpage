@@ -1,10 +1,10 @@
 Description of Following Collection
 
-What the Data is...
+1.) What the Data is...
 
 The following curated repository contains a series of high resolution images utilized for architectural
 elevations and rendered images commonly utilized within my main studio courses. The collected data represents
-a small portion of my overall digital repository for architectural rendering. This gallery of images are characterized as 
+a small portion of my overall digital repository for architectural rendering. The gallery of images below are characterized as 
 being commonly used within "Site" Plans and/or diagrams. It will contain a series of JPG and PNG data points 
 with the following fields: 
 
@@ -14,13 +14,13 @@ Schema.org (Technical Focus)
 - Content Size (Size of File by KB or MB)
 - Date Modified (File last opened/manipulated in Software)
 
-VCA 4.0 (Art Focus)
+VRA 4.0 (Art Focus)
 
 - Image ID (Name with Specific Schema)
 - Style (Vector or Realism)
 - Subject (Controlled Series of Possible Objects)
 
-Image ID Schema...
+2.) Image ID Schema...
 
 The following describes the possible groupings of IDs to create a consistent schema format across all files. 
 The following structure and components are presented below:
